@@ -28,3 +28,14 @@ body {
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+.entry-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+
+.entry-item > img {
+  filter: invert(100%);
+}
