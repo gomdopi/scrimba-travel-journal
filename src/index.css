@@ -59,7 +59,7 @@ article.journal-entry .main-image {
   object-fit: cover;
 }
 
-article.journal-entry .content {
+article.journal-entry .info-container {
   box-sizing: border-box;
   padding-top: 16px;
   padding-left: 25px;
@@ -67,33 +67,33 @@ article.journal-entry .content {
   height: 100%;
 }
 
-article.journal-entry .location {
+article.journal-entry .entry-location {
   font-size: 0.625rem;
   font-weight: 400;
   letter-spacing: 2px;
   margin-right: 10px;
 }
 
-article.journal-entry .google-maps-link {
+article.journal-entry .info-container > a {
   font-size: 0.625rem;
   font-weight: 400;
   text-decoration: underline;
   color: #918e9b;
 }
 
-article.journal-entry .title {
+article.journal-entry .entry-title {
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 1.5625rem;
   font-weight: 700;
 }
 
-article.journal-entry .dates {
+article.journal-entry .entry-dates {
   font-size: 0.625rem;
   font-weight: 700;
 }
 
-article.journal-entry .description {
+article.journal-entry .entry-text {
   font-size: 0.625rem;
   font-weight: 400;
 }
