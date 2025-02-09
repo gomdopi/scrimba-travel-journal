@@ -1,4 +1,30 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  color: white;
+  background-color: beige;
+}
+
+#root {
+  width: 550px;
+  height: 700px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f45a5b;
+  height: 60px;
+}
+
+.header > img {
+  width: 24px;
+  margin-right: 6px;
+}
+
+.header > h1 {
+  font-weight: 500;
+  font-size: 1rem;
 }
